@@ -4,6 +4,9 @@ Serverless function to return a rating of a text content, implemented in Python
 # Content rating calculation function
 Text content calculation function
 
+<img width="766" alt="image" src="https://github.com/user-attachments/assets/0cac4c96-1014-4bd2-977d-a1ecec388d31">
+
+
 To run the function, use this request example:
 
 ```
