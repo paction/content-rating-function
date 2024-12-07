@@ -1,0 +1,13 @@
+parameters: {}
+environment: {}
+packages:
+  - name: rating
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: content-rating-fn
+        main: rating/content-rating-fn.main
+        runtime: python:3.11
+        

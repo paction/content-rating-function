@@ -5,13 +5,13 @@ def main(args):
 
 import re
 
-# Define keyword categories with weights
+# Define keyword categories with weights. Iteration 1
 KEYWORDS = {
     "political": ["election", "government", "politics", "party", "vote"],
     "harassing": ["bully", "harass", "abuse", "stalk", "threat"],
     "racist": ["racism", "racist", "hate", "ethnic", "slur"],
-    "threatening": ["kill", "attack", "bomb", "destroy", "assault"],
-    "offensive": ["stupid", "idiot", "dumb", "ugly", "moron"],
+    "threatening": ["kill", "attack", "bomb", "destroy", "assault", "rocket"],
+    "offensive": ["stupid", "idiot", "dumb", "ugly", "moron", "fuck", "fucking", "wtf", "whore"],
 }
 
 WEIGHTS = {
